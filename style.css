@@ -1,0 +1,150 @@
+/* Fonts Import */
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/* Fonts Family
+font-family: Inconsolata, sans-serif;
+font-family: 'Space Mono', monospace;
+*/
+
+/* html */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* body */
+body {
+  margin: 40px 80px 80px 80px;
+}
+
+body header p {
+  font-family: Inconsolata, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#main {
+  margin-top: 80px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+#main-img img{
+  margin-left: 50px;
+  height: 400px;
+}
+#main-side {
+  margin-left: 40px;
+}
+#main-side h1 {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700 bold;
+  font-size: 64px;
+  width: 600px;
+}
+#main-side p {
+  font-family: 'Space Mono', monospace;
+  width: 270px;
+  margin-top: 35px;
+  color: #4F4F4F;
+}
+#main-side button{
+  margin-top: 35px;
+  font-family: 'Space Mono', monospace;
+  color: white;
+  background: black;
+  border: none;
+  padding: 20px;
+}
+
+#footer {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #BDBDBD;
+  position: absolute;
+  bottom: 0;
+}
+
+#footer p {
+  text-align: center;
+}
+/* Responsive */
+
+
+@media all  and (max-device-width: 500px) {
+  
+
+  body {
+    margin: 0;
+  }
+
+
+  body header p {
+    font-family: Inconsolata, sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  #main {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+
+  #main-img img{
+    margin-left: 25%;
+    height: 350px;
+  }
+
+  #main-side {
+    margin-top: 60px;
+  }
+
+  #main-side h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 500 bold;
+    font-size: 64px;
+    padding-right: 30px;
+  }
+
+  #main-side p {
+    font-family: 'Space Mono', monospace;
+    /* width: 900px; */
+    margin-top: 35px;
+    color: #4F4F4F;
+    font-size: 31px;
+    width: 600px;
+  }
+
+  #main-side button{
+    margin-top: 80px;
+    font-family: 'Space Mono', monospace;
+    color: white;
+    background: black;
+    border: none;
+    padding: 30px;
+    font-size: 30px;
+    white-space: nowrap;
+  }
+
+  #footer {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  white-space: nowrap;
+  color: #BDBDBD;
+  position: absolute;
+  top: 147%;
+  margin-left: 45px;
+}
+
+}
