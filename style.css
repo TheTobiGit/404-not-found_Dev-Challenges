@@ -185,3 +185,20 @@ body header p {
   }
 
 }
+
+/* Tablet */
+
+@media all and (max-width: 768px) {
+  #main {
+    margin-top: 100px;
+    flex-wrap: wrap;
+  }
+
+  #main-img img{
+    height: 300px;
+  }
+
+  #footer {
+    left: 230px;
+  }
+}
