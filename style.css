@@ -202,3 +202,15 @@ body header p {
     left: 230px;
   }
 }
+
+/* Laptop L */
+@media all and (max-width: 1024px) {
+  #main {
+    margin-top: 190px;
+  }
+  
+  #footer {
+    top: 118%;
+    left: 50%;
+  }
+}
