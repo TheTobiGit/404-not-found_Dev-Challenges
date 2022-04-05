@@ -74,6 +74,8 @@ body header p {
 /* Responsive */
 
 
+/* Mobile - L */
+
 @media all  and (max-device-width: 500px) {
   
 
@@ -146,5 +148,22 @@ body header p {
   top: 147%;
   margin-left: 45px;
 }
+
+}
+
+/* Mobile - M */
+
+@media all and (max-width: 376px) {
+  #footer {
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    white-space: nowrap;
+    color: #BDBDBD;
+    position: absolute;
+    top: 162%;
+}
+  #main {
+    margin-top: 190px;
+  }
 
 }
