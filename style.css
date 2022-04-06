@@ -66,8 +66,13 @@ body header p {
   position: absolute;
   bottom: 0;
 }
+#footer a{
+  text-decoration: none;
+  color: inherit;
+}
 #footer p {
   text-align: center;
+  
 }
 
 
