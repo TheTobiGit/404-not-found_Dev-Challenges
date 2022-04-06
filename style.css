@@ -150,24 +150,6 @@ body header p {
 
 } */
 
-/* Mobile - M */
-
-/* @media all and (min-width: 374px) {
-  #footer {
-    font-family: Montserrat, sans-serif;
-    font-size: 25px;
-    white-space: nowrap;
-    color: #BDBDBD;
-    position: absolute;
-    top: 162%;
-}
-
-  #main {
-    margin-top: 190px;
-  }
-
-} */
-
 /* Moblie - S */
 
 @media all and (max-width: 320px) {
@@ -203,6 +185,49 @@ body header p {
 
   #footer {
     top: 194%;
+    left: 30%;
+  }
+
+  #footer p {
+    font-size: 20px;
+    white-space: nowrap;
+  }
+}
+
+/* Mobile - M */
+
+@media all and (min-width: 374px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    margin-top: 50px;
+    margin-left: 40px;
+  }
+
+  body header p{
+    white-space: nowrap;
+    font-size: 39px;
+  }
+
+  #main {
+    margin-top: 220px;
+    flex-direction: column;
+  }
+
+  #main-side p {
+    font-size: 30px;
+    width: 480px;
+  }
+
+  #main-side button {
+    font-size: 23px;
+  }
+
+  #footer {
+    top: 166%;
     left: 30%;
   }
 
