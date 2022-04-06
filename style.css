@@ -76,7 +76,7 @@ body header p {
 
 /* Mobile - L */
 
-@media all  and (max-device-width: 500px) {
+/* @media all  and (max-device-width: 500px) {
   
 
   body {
@@ -121,7 +121,6 @@ body header p {
 
   #main-side p {
     font-family: 'Space Mono', monospace;
-    /* width: 900px; */
     margin-top: 35px;
     color: #4F4F4F;
     font-size: 31px;
@@ -149,11 +148,11 @@ body header p {
   margin-left: 45px;
 }
 
-}
+} */
 
 /* Mobile - M */
 
-@media all and (max-width: 376px) {
+/* @media all and (min-width: 374px) {
   #footer {
     font-family: Montserrat, sans-serif;
     font-size: 25px;
@@ -162,33 +161,60 @@ body header p {
     position: absolute;
     top: 162%;
 }
+
   #main {
     margin-top: 190px;
   }
 
-}
+} */
 
 /* Moblie - S */
 
-@media all and (max-width: 321px) {
+@media all and (max-width: 320px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
   header {
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
+  }
+
+  body header p{
+    white-space: nowrap;
+    font-size: 39px;
   }
 
   #main {
     margin-top: 250px;
+    flex-direction: column;
+  }
+
+  #main-side p {
+    font-size: 30px;
+    width: 480px;
+  }
+
+  #main-side button {
+    font-size: 23px;
   }
 
   #footer {
-    top: 192%;
+    top: 194%;
+    left: 30%;
   }
 
+  #footer p {
+    font-size: 20px;
+    white-space: nowrap;
+  }
 }
 
 /* Tablet */
 
-@media all and (max-width: 768px) {
+/* @media all and (max-width: 768px) {
   #main {
     margin-top: 100px;
     flex-wrap: wrap;
@@ -201,16 +227,18 @@ body header p {
   #footer {
     left: 230px;
   }
-}
+} */
 
 /* Laptop L */
-@media all and (max-width: 1024px) {
+/* @media all and (max-width: 1024px) {
   #main {
     margin-top: 190px;
   }
   
+
   #footer {
     top: 118%;
     left: 50%;
   }
-}
+  
+} */
