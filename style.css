@@ -71,88 +71,16 @@ body header p {
 #footer p {
   text-align: center;
 }
+
+
 /* Responsive */
 
 
-/* Mobile - L */
 
-/* @media all  and (max-device-width: 500px) {
-  
-
-  body {
-    margin: 0;
-  }
-
-
-  body header p {
-    font-family: Inconsolata, sans-serif;
-    font-weight: 700;
-    font-size: 45px;
-    white-space: nowrap;
-    margin-left: 20px;
-    margin-top: 20px;
-  }
-
-  #main {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    box-sizing: border-box;
-    margin-right: 10px;
-  }
-
-  #main-img img{
-    margin-left: 25%;
-    height: 350px;
-  }
-
-  #main-side {
-    margin-top: 60px;
-  }
-
-  #main-side h1 {
-    font-family: 'Space Mono', monospace;
-    font-weight: 500 bold;
-    font-size: 64px;
-    padding-right: 30px;
-  }
-
-  #main-side p {
-    font-family: 'Space Mono', monospace;
-    margin-top: 35px;
-    color: #4F4F4F;
-    font-size: 31px;
-    width: 600px;
-  }
-
-  #main-side button{
-    margin-top: 80px;
-    font-family: 'Space Mono', monospace;
-    color: white;
-    background: black;
-    border: none;
-    padding: 30px;
-    font-size: 30px;
-    white-space: nowrap;
-  }
-
-  #footer {
-  font-family: Montserrat, sans-serif;
-  font-size: 25px;
-  white-space: nowrap;
-  color: #BDBDBD;
-  position: absolute;
-  top: 147%;
-  margin-left: 45px;
-}
-
-} */
 
 /* Moblie - S */
 
-@media all and (max-width: 320px) {
+@media all and (min-width: 320px) {
 
   body {
     margin: 0;
@@ -170,7 +98,7 @@ body header p {
   }
 
   #main {
-    margin-top: 250px;
+    margin-top: 180px;
     flex-direction: column;
   }
 
@@ -184,7 +112,7 @@ body header p {
   }
 
   #footer {
-    top: 194%;
+    top: 1320px;
     left: 30%;
   }
 
@@ -194,9 +122,10 @@ body header p {
   }
 }
 
-/* Mobile - M */
 
-@media all and (min-width: 374px) {
+/* Mobile M-375 */
+
+@media only screen and (min-width: 375px) { 
   body {
     margin: 0;
     padding: 0;
@@ -227,8 +156,8 @@ body header p {
   }
 
   #footer {
-    top: 166%;
-    left: 30%;
+    top: 1370px;
+    left: 110px;
   }
 
   #footer p {
@@ -236,34 +165,3 @@ body header p {
     white-space: nowrap;
   }
 }
-
-/* Tablet */
-
-/* @media all and (max-width: 768px) {
-  #main {
-    margin-top: 100px;
-    flex-wrap: wrap;
-  }
-
-  #main-img img{
-    height: 300px;
-  }
-
-  #footer {
-    left: 230px;
-  }
-} */
-
-/* Laptop L */
-/* @media all and (max-width: 1024px) {
-  #main {
-    margin-top: 190px;
-  }
-  
-
-  #footer {
-    top: 118%;
-    left: 50%;
-  }
-  
-} */
