@@ -191,3 +191,13 @@ body header p {
     white-space: nowrap;
   }
 }
+
+/* Laptop 1024 */
+@media only screen and (min-width: 1024px) and (max-width: 1349px){
+  
+  #footer {
+    top: 800px;
+    left: 500px;
+  }
+  
+}
