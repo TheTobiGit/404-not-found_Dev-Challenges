@@ -69,6 +69,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [404-error-thetobi.netlify.app](https://404-error-thetobi.netlify.app/)
+<!-- - Website [404-error-thetobi.netlify.app](https://404-error-thetobi.netlify.app/) -->
 - GitHub [@TheTobiGit](https://github.com/TheTobiGit)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+<!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
