@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-error-thetobi.netlify.app/">
+    <!-- <a href="https://404-error-thetobi.netlify.app/">
       Demo
-    </a>
+    </a> -->
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://404-error-thetobi.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -69,6 +69,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{404-error-thetobi.netlify.app/})
+- Website [your-website.com](https://404-error-thetobi.netlify.app/)
 - GitHub [@your-username](https://{github.com/TheTobiGit})
 - Twitter [@your-twitter](https://{twitter.com/your-username})
