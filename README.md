@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://404-error-thetobi.netlify.app/">
+    <a href="https://404-error-thetobi.netlify.app/">
       Demo
-    </a> -->
+    </a>
     <span> | </span>
-    <a href="https://thetobigit-404error.netlify.app/">
+    <a href="https://devchallenges.io/solutions/4kDZQaMlWGmdJ9B2MQRU">
       Solution
     </a>
     <span> | </span>
