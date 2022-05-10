@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">404-not-found</h1>
+<h1 align="center">Dev Challenges 404-not-found</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -12,7 +12,7 @@
       Demo
     </a> -->
     <span> | </span>
-    <a href="https://404-error-thetobi.netlify.app/">
+    <a href="https://thetobigit-404error.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -71,4 +71,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 <!-- - Website [404-error-thetobi.netlify.app](https://404-error-thetobi.netlify.app/) -->
 - GitHub [@TheTobiGit](https://github.com/TheTobiGit)
-<!-- - Twitter [@your-twitter](https://{twitter.com/your-username}) -->
+- Twitter [@TheTobiGit](https://{twitter.com/TheTobiGit})
